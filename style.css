@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url('./asset/background.svg');
     background-repeat: no-repeat;
     margin: 0;
@@ -6,7 +6,7 @@ body{
     overflow: hidden;
 }
 
-.content{
+.content {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -15,11 +15,11 @@ body{
     flex-direction: column;
 }
 
-.booster{
+.booster {
     width: 68vw;
 }
 
-.btn{
+.btn {
     background-color: #018c6a;
     color: #fff;
     padding: 10px 40px;
@@ -30,4 +30,20 @@ body{
     margin-top: 7vh;
     display: inline-block;
     box-shadow: #018c696f 2px 4px 10px;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0) skewX(0deg);
+    }
+
+    50% {
+        transform: translateY(-10px) skewX(0.3deg);
+    }
+}
+
+.booster {
+    animation: bounce 2s infinite;
 }

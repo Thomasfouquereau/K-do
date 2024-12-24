@@ -38,6 +38,11 @@ window.onload = function () {
     const selectedCard = card[randomIndex];
     console.log(selectedCard);
 
+    setTimeout(function() {
+        document.getElementById('loader').style.display = 'none';
+        document.getElementById('content').style.display = 'flex';
+    }, 1000);
+
     const content = document.getElementById("cardBorder");
 
     content.innerHTML = `
