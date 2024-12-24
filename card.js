@@ -3,7 +3,7 @@ const card = [
         id: 1,
         name: "Bon d'achat",
         pv: 500,
-        nameimg: "Bon d'achat 500€",
+        img: "Designer",
         description: "Vous pouvez utiliser ce bon d'achat d'un n'importe quel magasin",
         clause: "*si vous ne dites pas anticonstitutionnellement 5 fois dans les 5.67 secondes après l'ouverture ce bon d'achat devient caduque **peux quand même être utilisé chez A-TechPro"
     },
@@ -19,16 +19,16 @@ const card = [
         id: 3,
         name: "designe offert",
         pv: 500,
-        nameimg: "Bon d'achat 500€",
-        description: "Vous pouvez utiliser ce bon d'achat d'un n'importe quel magasin",
+        img: "Designer-_1_",
+        description: "le design entier d'un site offert (pour les polyglotte)",
         clause: "*ne peux être utilisé que chez A-TechPro **faut pouvoir lire ses caractères pour l'utiliser よく遊ぶ"
     },
     {
         id: 4,
         name: "site web offert",
         pv: 500,
-        nameimg: "Bon d'achat 500€",
-        description: "Vous pouvez utiliser ce bon d'achat d'un n'importe quel magasin",
+        img: "Designer-_2_",
+        description: "vous serez l'heureux propriétaire d'un site",
         clause: "*ne peux être utilisé que chez A-TechPro**il faut être capable de faire un salto arrière pour l'utiliser ***ne peux être utilisé que pour un site web de 5 pages ou moins"
     }
 ]
