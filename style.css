@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     margin: 0;
     font-family: "Roboto", serif;
+    overflow: hidden;
 }
 
 .content{
