@@ -21,7 +21,7 @@ const card = [
         pv: 500,
         img: "Designer-_5_",
         description: "le design entier d'un site offert (pour les polyglotte)",
-        clause: "*ne peux être utilisé que chez A-TechPro **faut pouvoir lire ses caractères pour l'utiliser よく遊ぶ"
+        clause: "*ne peux être utilisé que chez A-TechPro **il faut pouvoir lire ses caractères pour l'utiliser よく遊ぶ"
     },
     {
         id: 4,
