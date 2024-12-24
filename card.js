@@ -12,7 +12,7 @@ const card = [
         name: "Rien domage ",
         pv: 0,
         img: "cat",
-        description: "tu n'as sûrement pas dû être sage cette année tu n'auras rien du tout",
+        description: "Tu n'as sûrement pas dû être sage cette année tu n'auras rien du tout",
         clause: ""
     },
     {
